@@ -22,6 +22,9 @@
 		07D17A9719A1FA6400EEBDDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D17A7619A1FA6400EEBDDF /* UIKit.framework */; };
 		07D17A9F19A1FA6400EEBDDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07D17A9D19A1FA6400EEBDDF /* InfoPlist.strings */; };
 		07D17AA119A1FA6400EEBDDF /* RaveeRushiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D17AA019A1FA6400EEBDDF /* RaveeRushiTests.m */; };
+		07D17AAB19A1FA6F00EEBDDF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D17AAA19A1FA6F00EEBDDF /* CoreData.framework */; };
+		07D17AAE19A1FAB000EEBDDF /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07D17AAC19A1FAB000EEBDDF /* Model.xcdatamodeld */; };
+		07D17AB119A1FEDE00EEBDDF /* NamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D17AB019A1FEDE00EEBDDF /* NamesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,10 @@
 		07D17A9C19A1FA6400EEBDDF /* RaveeRushiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaveeRushiTests-Info.plist"; sourceTree = "<group>"; };
 		07D17A9E19A1FA6400EEBDDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07D17AA019A1FA6400EEBDDF /* RaveeRushiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaveeRushiTests.m; sourceTree = "<group>"; };
+		07D17AAA19A1FA6F00EEBDDF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07D17AAD19A1FAB000EEBDDF /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		07D17AAF19A1FEDE00EEBDDF /* NamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamesViewController.h; sourceTree = "<group>"; };
+		07D17AB019A1FEDE00EEBDDF /* NamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D17AAB19A1FA6F00EEBDDF /* CoreData.framework in Frameworks */,
 				07D17A7519A1FA6400EEBDDF /* CoreGraphics.framework in Frameworks */,
 				07D17A7719A1FA6400EEBDDF /* UIKit.framework in Frameworks */,
 				07D17A7319A1FA6400EEBDDF /* Foundation.framework in Frameworks */,
@@ -104,6 +112,7 @@
 		07D17A7119A1FA6400EEBDDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07D17AAA19A1FA6F00EEBDDF /* CoreData.framework */,
 				07D17A7219A1FA6400EEBDDF /* Foundation.framework */,
 				07D17A7419A1FA6400EEBDDF /* CoreGraphics.framework */,
 				07D17A7619A1FA6400EEBDDF /* UIKit.framework */,
@@ -118,6 +127,8 @@
 				07D17A8119A1FA6400EEBDDF /* AppDelegate.h */,
 				07D17A8219A1FA6400EEBDDF /* AppDelegate.m */,
 				07D17A8419A1FA6400EEBDDF /* Main.storyboard */,
+				07D17AAF19A1FEDE00EEBDDF /* NamesViewController.h */,
+				07D17AB019A1FEDE00EEBDDF /* NamesViewController.m */,
 				07D17A8719A1FA6400EEBDDF /* FirstViewController.h */,
 				07D17A8819A1FA6400EEBDDF /* FirstViewController.m */,
 				07D17A8A19A1FA6400EEBDDF /* SecondViewController.h */,
@@ -135,6 +146,7 @@
 				07D17A7B19A1FA6400EEBDDF /* InfoPlist.strings */,
 				07D17A7E19A1FA6400EEBDDF /* main.m */,
 				07D17A8019A1FA6400EEBDDF /* RaveeRushi-Prefix.pch */,
+				07D17AAC19A1FAB000EEBDDF /* Model.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -255,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07D17A8C19A1FA6400EEBDDF /* SecondViewController.m in Sources */,
+				07D17AB119A1FEDE00EEBDDF /* NamesViewController.m in Sources */,
 				07D17A8319A1FA6400EEBDDF /* AppDelegate.m in Sources */,
+				07D17AAE19A1FAB000EEBDDF /* Model.xcdatamodeld in Sources */,
 				07D17A8919A1FA6400EEBDDF /* FirstViewController.m in Sources */,
 				07D17A7F19A1FA6400EEBDDF /* main.m in Sources */,
 			);
@@ -472,6 +486,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07D17AAC19A1FAB000EEBDDF /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07D17AAD19A1FAB000EEBDDF /* Model.xcdatamodel */,
+			);
+			currentVersion = 07D17AAD19A1FAB000EEBDDF /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 07D17A6719A1FA6400EEBDDF /* Project object */;
 }

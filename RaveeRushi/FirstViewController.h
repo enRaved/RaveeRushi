@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NamesViewController.h"
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UITableViewController
+@property(strong) NSMutableArray *names;
+
 
 @end
